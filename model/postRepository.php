@@ -4,7 +4,7 @@ function getDBConnection() :PDO
 {
     $user = 'root';
     $pass = '';
-    $dbname = 'chat';
+    $dbname = 'blog';
     $host = 'localhost';
 
     try {
@@ -33,9 +33,7 @@ function getAllPosts() :array
         $req->setFetchMode(PDO::FETCH_ASSOC);
         $posts = $req->fetchAll();
         $req->closeCursor();
-
-        $dbh = null;
-
+        
         return $posts;
 
     } catch (PDOException $e) {
@@ -46,7 +44,7 @@ function getAllPosts() :array
 
 
 
-function getOnePost($id) :array
+function getOnePostByID($id) :array
 {
     try {
         $query = 'SELECT * FROM post WHERE id=?';
