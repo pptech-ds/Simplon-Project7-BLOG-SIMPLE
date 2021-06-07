@@ -12,12 +12,14 @@
 </head>
 
 <body>
-    <?php require '_nav.php'; ?>
+
+
+    <?php var_dump(dirname(__DIR__)); require dirname(__DIR__) . '/view/shared/_nav.php'; ?>
 
     <div class="container">
-        <?php require 'postAll.php'; ?>
+        <?php require dirname(__DIR__) . '/view/post/postAll.php'; ?>
     </div>
 
 </body>
 
-</html>
+</html>sdsd
