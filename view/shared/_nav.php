@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">Mon Blog</a>
+        <a class="navbar-brand" href="?page=post.all">Mon Blog</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
             aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,10 +9,10 @@
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.php">Acceuil</a>
+                    <a class="nav-link active" href="?page=post.all">Acceuil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="user.php">Connection</a>
+                    <a class="nav-link" href="?page=user.connection">Connection</a>
                 </li>
 
             </ul>
