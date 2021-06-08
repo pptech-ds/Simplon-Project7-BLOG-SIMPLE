@@ -87,5 +87,6 @@
         Posté par pras <cite title="Source Title"> le 2021/06/07</cite>
     </figcaption>
 </figure>
-
-<?php require 'comment.php'; ?>
+<h2>Les Commentaires</h2>
+<?php require dirname(__DIR__) . '/comment/all.php'; ?>
+<?php require dirname(__DIR__) . '/comment/submit.php'; ?>
