@@ -12,10 +12,8 @@ try {
         require dirname(__DIR__) . '/controller/postController.php';
         one();
     } elseif ($page === 'user.connection') {
-        ob_start();
-        require dirname(__DIR__) . '/view/user/connectionForm.php';
-        $content = ob_get_clean();
-        require dirname(__DIR__) . '/view/base.php'; 
+        require dirname(__DIR__) . '/controller/userController.php';
+        connect();
     } else {
         throw new Exception('404');
     }
