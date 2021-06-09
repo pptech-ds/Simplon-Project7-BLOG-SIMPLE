@@ -9,5 +9,7 @@
     </figcaption>
 </figure>
 <h2>Les Commentaires</h2>
-<?php require dirname(__DIR__) . '/comment/all.php'; ?>
-<?php require dirname(__DIR__) . '/comment/submit.php'; ?>
+<?php 
+    require dirname(__DIR__,2) . '/controller/commentController.php';
+    renderComment(); 
+?>
