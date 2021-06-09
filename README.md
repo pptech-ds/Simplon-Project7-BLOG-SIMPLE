@@ -1,2 +1,3 @@
 # Simplon-Project7-BLOG-SIMPLE
-Create an MVC blog using an existing one
+Create a MVC blog using an existing one  
+More details will fallow soon ...
